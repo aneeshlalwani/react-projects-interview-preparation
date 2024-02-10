@@ -1,5 +1,6 @@
 import Accordian from "./components/accordian";
 import ImageSlider from "./components/image-slider";
+import QRCodeGenerator from "./components/qr-code-generator";
 import RandomColorGenerator from "./components/random-color-generator";
 import StarRanting from "./components/star-rating";
 
@@ -19,6 +20,8 @@ function App() {
           page={"1"}
           limit={4}
         />
+        {/* QR Code Generator */}
+        <QRCodeGenerator />
       </div>
     </>
   );
