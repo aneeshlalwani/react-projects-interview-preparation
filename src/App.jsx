@@ -3,6 +3,7 @@ import ImageSlider from "./components/image-slider";
 import QRCodeGenerator from "./components/qr-code-generator";
 import RandomColorGenerator from "./components/random-color-generator";
 import StarRanting from "./components/star-rating";
+import LightDarkModeSwitch from "./components/light-dark-mode-switch";
 
 function App() {
   return (
@@ -22,6 +23,8 @@ function App() {
         />
         {/* QR Code Generator */}
         <QRCodeGenerator />
+        {/* Light Dark Mode Theme Switch */}
+        <LightDarkModeSwitch />
       </div>
     </>
   );
