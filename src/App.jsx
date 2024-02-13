@@ -4,6 +4,7 @@ import QRCodeGenerator from "./components/qr-code-generator";
 import RandomColorGenerator from "./components/random-color-generator";
 import StarRanting from "./components/star-rating";
 import LightDarkModeSwitch from "./components/light-dark-mode-switch";
+import LoadMoreData from "./components/load-more-data";
 
 function App() {
   return (
@@ -24,7 +25,9 @@ function App() {
         {/* QR Code Generator */}
         <QRCodeGenerator />
         {/* Light Dark Mode Theme Switch */}
-        <LightDarkModeSwitch />
+        {/* <LightDarkModeSwitch /> */}
+        {/* Load More Data Component */}
+        <LoadMoreData />
       </div>
     </>
   );
