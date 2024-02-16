@@ -6,6 +6,7 @@ import StarRanting from "./components/star-rating";
 import LightDarkModeSwitch from "./components/light-dark-mode-switch";
 import LoadMoreData from "./components/load-more-data";
 import ScrollIndicator from "./components/scroll-indicator";
+import TabTest from "./components/custom-tabs/tabs-test";
 
 function App() {
   return (
@@ -31,6 +32,8 @@ function App() {
         <LoadMoreData />
         {/* Scroll Indicator Component */}
         <ScrollIndicator url="https://dummyjson.com/products?limit=100" />
+        {/* Custom Tabs */}
+        <TabTest />
       </div>
     </>
   );
