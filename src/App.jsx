@@ -7,6 +7,7 @@ import LightDarkModeSwitch from "./components/light-dark-mode-switch";
 import LoadMoreData from "./components/load-more-data";
 import ScrollIndicator from "./components/scroll-indicator";
 import TabTest from "./components/custom-tabs/tabs-test";
+import UseWindowResizeTest from "./components/use-window-resize/test";
 
 function App() {
   return (
@@ -34,6 +35,8 @@ function App() {
         <ScrollIndicator url="https://dummyjson.com/products?limit=100" />
         {/* Custom Tabs */}
         <TabTest />
+        {/* Use Window Resize Hook Test */}
+        <UseWindowResizeTest />
       </div>
     </>
   );
