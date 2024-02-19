@@ -8,6 +8,7 @@ import LoadMoreData from "./components/load-more-data";
 import ScrollIndicator from "./components/scroll-indicator";
 import TabTest from "./components/custom-tabs/tabs-test";
 import UseWindowResizeTest from "./components/use-window-resize/test";
+import ModalTest from "./components/custom-modal-popup/modal-test";
 
 function App() {
   return (
@@ -37,6 +38,8 @@ function App() {
         <TabTest />
         {/* Use Window Resize Hook Test */}
         <UseWindowResizeTest />
+        {/* Custom Modal Popup */}
+        <ModalTest />
       </div>
     </>
   );
