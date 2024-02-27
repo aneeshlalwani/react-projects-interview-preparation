@@ -10,6 +10,7 @@ import TabTest from "./components/custom-tabs/tabs-test";
 import UseWindowResizeTest from "./components/use-window-resize/test";
 import ModalTest from "./components/custom-modal-popup/modal-test";
 import UseOnclickOutsideTest from "./components/use-outside-click/test";
+import UseFetchHookTest from "./components/use-fetch/test";
 
 function App() {
   return (
@@ -43,6 +44,8 @@ function App() {
         <ModalTest />
         {/* Use onClick Outside Hook Test*/}
         <UseOnclickOutsideTest />
+        {/* Use Fetch Hook Test */}
+        <UseFetchHookTest />
       </div>
     </>
   );
